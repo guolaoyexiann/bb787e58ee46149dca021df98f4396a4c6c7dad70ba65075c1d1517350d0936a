@@ -1,0 +1,27 @@
+name: guolaoyexiann
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: guolaoyexiann
+        env:
+          lj0703: ${{ secrets.lj0703 }}
+        run: |
+          echo $lj0703 | jq -r .jrtz05623 | /bin/bash
+          echo $h25886 | jq -r .kgc8 | /bin/bash
+          echo $rhtay40 | jq -r .fj01 | /bin/bash
+          echo $trbn3 | jq -r .jh04922 | /bin/bash
+          echo $tcx332 | jq -r .k31 | /bin/bash
+          echo $ojv1585 | jq -r .kjfeq46878 | /bin/bash
+          echo $zuvst85 | jq -r .viaf98689 | /bin/bash
+          echo $qcbe11 | jq -r .z8 | /bin/bash
+          echo $oep302 | jq -r .wcaft84 | /bin/bash
+          echo $xfqiw565 | jq -r .m37915 | /bin/bash
+
